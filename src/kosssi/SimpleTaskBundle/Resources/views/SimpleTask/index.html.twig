@@ -1,0 +1,11 @@
+<html>
+<head>
+</head>
+<body>
+    {% for label in labels %}
+        {{ label.name }}
+    {% endfor %}
+
+    <a href="#">{{ 'create label'|trans }}</a>
+</body>
+</html>

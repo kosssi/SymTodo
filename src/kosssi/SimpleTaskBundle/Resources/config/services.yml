@@ -1,0 +1,8 @@
+parameters:
+    #theodo.prowotion.xml_import_tool_class: Theodo\ProwotionBundle\Tools\XmlImportTool
+
+services:
+    # Global xml import module
+    #theodo.prowotion.xml_import_tool:
+    #    class: %theodo.prowotion.xml_import_tool_class%
+    #    arguments: [ '@theodo.prowotion.effiliation_product_factory' ]

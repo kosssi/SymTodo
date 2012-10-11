@@ -1,10 +1,11 @@
 parameters:
-    database_driver:   pdo_mysql
+    database_driver:   pdo_sqlite
     database_host:     localhost
     database_port:     ~
-    database_name:     symfony
+    database_name:     SimpleTask
     database_user:     root
-    database_password: ~
+    database_password: root
+    database_path:     /home/simonc/dev/projects/_PERSO/SymTodo/data/sqlite/simple_task.sqlite
 
     mailer_transport:  smtp
     mailer_host:       localhost

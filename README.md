@@ -14,8 +14,8 @@ A COMPLETER
 2) Cas d'utilisation
 --------------------
 
-ETQA : En tant qu'administrateur
-ETQU : En tant qu'utilisateur
+* ETQA : En tant qu'administrateur
+* ETQU : En tant qu'utilisateur
 
 * ETQA, je peux importer un utilisateur (fichier sqlite)
 * ETQA, je peux créer un utilisateur
