@@ -5,7 +5,7 @@ parameters:
     database_name:     SimpleTask
     database_user:     root
     database_password: root
-    database_path:     /home/simonc/dev/projects/_PERSO/SymTodo/data/sqlite/simple_task.sqlite
+    database_path:     /home/kosssi/dev/projects/SymTodo/data/sqlite/simple_task.sqlite
 
     mailer_transport:  smtp
     mailer_host:       localhost
