@@ -5,10 +5,6 @@
     {% endjavascripts %}
 </head>
 <body>
-    {% include 'SimpleTaskBundle:Label:_list.html.twig' %}
-
-    <a href="{{ path('label_new') }}" id="label_new">{{ 'create label'|trans }}</a>
-
-    <div id="popup"></div>
+    {% include 'SimpleTaskBundle:Label:_form.html.twig' %}
 </body>
 </html>

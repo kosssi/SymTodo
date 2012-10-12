@@ -14,8 +14,8 @@ A COMPLETER
 2) Cas d'utilisation
 --------------------
 
-* ETQA : En tant qu'administrateur
-* ETQU : En tant qu'utilisateur
+- ETQA : En tant qu'administrateur
+- ETQU : En tant qu'utilisateur
 
 * ETQA, je peux importer un utilisateur (fichier sqlite)
 * ETQA, je peux créer un utilisateur
@@ -35,3 +35,8 @@ A COMPLETER
 * Base de données : SQLite
 
 Le but est d'avoir une base de données pour chaque utilisateur et une base de données pour l'application
+
+4) A faire
+----------
+
+* Importer jQuery avec composer

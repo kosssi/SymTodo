@@ -1,0 +1,7 @@
+<h1>{{ 'New label'|trans }}</h1>
+<form id="label_form" action="{{ path('label_new') }}" method="post" {{ form_enctype(form) }}>
+    {{ form_widget(form) }}
+
+    <input type="submit" id="label_new_validate" />
+    <button id="label_form_quit">Annuler</button>
+</form>

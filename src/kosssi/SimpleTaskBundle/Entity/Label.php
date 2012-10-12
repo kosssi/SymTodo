@@ -37,6 +37,13 @@ class Label
     private $tasks;
 
     /**
+     * @var Dashboard $dashboard
+     *
+     * @ORM\ManyToOne(targetEntity="Dashboard", inversedBy="labels")
+     */
+    protected $dashboard;
+
+    /**
      * @param int $id
      */
     public function setId($id)
@@ -82,5 +89,21 @@ class Label
     public function getName()
     {
         return $this->name;
+    }
+
+    /**
+     * @param \kosssi\SimpleTaskBundle\Entity\Dashboard $dashboard
+     */
+    public function setDashboard($dashboard)
+    {
+        $this->dashboard = $dashboard;
+    }
+
+    /**
+     * @return \kosssi\SimpleTaskBundle\Entity\Dashboard
+     */
+    public function getDashboard()
+    {
+        return $this->dashboard;
     }
 }

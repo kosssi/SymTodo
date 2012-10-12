@@ -225,4 +225,32 @@ class Task
     {
         return $this->title;
     }
+    /**
+     * @var integer $labelId
+     */
+    private $labelId;
+
+
+    /**
+     * Set labelId
+     *
+     * @param integer $labelId
+     * @return Task
+     */
+    public function setLabelId($labelId)
+    {
+        $this->labelId = $labelId;
+    
+        return $this;
+    }
+
+    /**
+     * Get labelId
+     *
+     * @return integer 
+     */
+    public function getLabelId()
+    {
+        return $this->labelId;
+    }
 }
